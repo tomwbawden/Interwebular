@@ -1,0 +1,629 @@
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+p {
+	line-height: 18px;
+}
+/*------------------------------Layout------------------------------*/
+
+#c1 {
+	width: 100%;
+	height: 100%;
+	background-image: url(images/bg.png);
+	background-size: 100%;
+	position: relative;
+}
+#c2 {
+	margin: 15% 10% auto 45%;
+	width: 50%;
+	height: 70%;
+	background-color: #ccc;
+	position: absolute;
+}
+#m1 {
+	position: absolute;
+	top: 0;
+	width: 40%;
+	height: 5%;
+	margin-right: 30%;
+	margin-left: 30%;
+	background-color: #ccc;
+}
+#h1 {
+	height: 15%;
+	background-color: #000;
+}
+#header {
+	Height: 25px;
+	Background-color: #000000;
+}
+#header p {
+	font-size: 11px;
+	margin: 0px;
+	padding-left: 5px;
+	padding-top: 4px;
+	color: #b2b2b2;
+}
+span.right {
+	position: absolute;
+	right: 10px;
+}
+#topmenu {
+	Height: 25px;
+	margin-left: 100px;
+}
+img.floatleft {
+	float: left;
+	padding-right: 3px;
+}
+#topmenu p {
+	margin: 0px;
+	padding: 0px;
+	color: #262626;
+}
+
+#topmenu a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#topmenu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+#topmenu a {
+	text-decoration: none;
+	word-spacing: 10px;
+	color: #666666;
+	font-size: 12px;
+}
+#topmenu ul li {
+	display: inline;
+	word-spacing: 10px;
+	padding-left: 10px;
+	font-family: Arial;
+}
+#topmenu ul li a:active {
+	background-color: #000000;
+	color: #fff;
+}
+#container {
+	margin-left: 100px;
+	margin-bottom: 100px;
+}
+#containerhome {
+	margin: auto 20% auto 20%;
+	padding-top: 45px;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: auto;
+	width: 60%;
+	overflow:hidden;
+	position: relative;
+}
+#containerprojects {
+	margin-left: 100px;
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	width: 80%;
+	overflow: hidden;
+}
+#containerprojects h2 {
+	padding: 0px;
+}
+#logo {
+	background-image: url(images/interwebular_logo_v1.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	height: 150px;
+}
+#twittercontainer {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+#block1 {
+	width: 45%;
+	float: left;
+	margin-bottom: 25px;
+}
+#block2 {
+	width: 45%;
+	float: right;
+	margin-bottom: 25px;
+}
+#project {
+	width: 145px;
+	height: 130px;
+	border: 4px solid #0099Ff;
+	background-color: #000052;
+	margin-bottom: 25px;
+	margin-right: 12px;
+	float: left;
+	position: relative;
+}
+#content {
+	width: 50%;
+	margin-left: 10%;
+	float: left;
+}
+#content p {
+	margin: 0px;
+}
+#content .padding {
+	padding: 25px
+}
+#rightmenu {
+	Float: right;
+	Width: 20%;
+	margin-right: 10%;
+	position: relative;
+}
+#rightmenu p {
+	margin: 0px
+}
+#project h5 {
+	margin-top: 2px;
+	margin-left: 5px;
+}
+#project a {
+	float: right;
+	padding-right: 10px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-family: verdana, tahoma;
+	text-decoration: none;
+	position: absolute;
+	bottom: 15px;
+	right: 5px;
+}
+#rightmenu .padding {
+	padding-top: 0px;
+}
+#Footer {
+	Height: 66px;
+	clear: both;
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	line-height: 18px;
+	text-align: center;
+	position: relative;
+}
+/*DOCKFOOTER*/
+
+#Footer body {
+	margin: 0;
+	padding: 0;
+	font: normal 14px/1.5 "PT Sans", Helvetica, Arial, sans-serif;
+	background: rgb(30, 30, 30);
+	color: rgb(220, 220, 220);
+}
+.wrapper {
+	position: absolute;
+	top: 48%;
+	left: 50%;
+	width: 660px;
+	height: 340px;
+	margin: -190px 0 0 -330px;
+}
+ @-webkit-keyframes bounce {
+ 0% {
+-webkit-transform: translateY(0);
+}
+ 100% {
+-webkit-transform: translateY(-20px);
+}
+}
+ @-moz-keyframes bounce {
+ 0% {
+-moz-transform: translateY(0);
+}
+ 100% {
+-moz-transform: translateY(-20px);
+}
+}
+/* @group Dock */
+.dock {
+	position: absolute;
+	bottom: -70px;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+	font: normal 14px/1 'Lucida Grande', Arial, sans-serif;
+}
+.dock ul {
+	position: relative;
+	display: inline-block;
+	padding: 0 5px;
+	margin: 0;
+	background: url(images/dock-m.png) repeat-x bottom;
+}
+/* Creates the left and right end caps of the dock. */
+.dock ul:before, .dock ul:after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 31px;
+}
+.dock ul:before {
+	left: -31px;
+	background: url(images/dock-l.png) no-repeat left bottom;
+}
+.dock ul:after {
+	right: -31px;
+	background: url(images/dock-r.png) no-repeat right bottom;
+}
+/* @end */
+
+/* @group Items */
+/* Defines a dock item. */
+.dock li {
+	display: inline-block;
+	position: relative;
+	margin: 0 1px;
+	margin-bottom: 15px;
+	vertical-align: baseline;
+	-webkit-box-reflect: below -16px -webkit-gradient( linear, left top, left bottom, from(transparent), color-stop(91%, rgba(255, 255, 255, .1)), color-stop(91.01%, transparent), to(transparent) );
+}
+.dock a {
+	display: inline-block;
+	cursor: default;
+	outline: none;
+}
+/* Applies the bounce animation to the targeted dock item.  */
+.dock li:target a {
+ -webkit-animation: bounce .3s 6 alternate ease-out;
+ -moz-animation: bounce .3s 6 alternate ease-out;
+}
+/* Generates the status indicator.*/
+.dock li:after {
+	content: " ";
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	width: 5px;
+	height: 5px;
+	opacity: 0;
+	visibility: hidden;
+	background-color: rgba(255, 255, 255, .8);
+	margin-left: -2px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 
+ inset 0 1px 3px rgba(75, 255, 255, .4), 0 0 4px rgba(75, 255, 255, .5), 0 -1px 7px rgb(75, 255, 255);
+	-moz-box-shadow: 
+ inset 0 1px 3px rgba(75, 255, 255, .4), 0 0 4px rgba(75, 255, 255, .5), 0 -1px 7px rgb(75, 255, 255);
+	box-shadow: 
+ inset 0 1px 3px rgba(75, 255, 255, .4), 0 0 4px rgba(75, 255, 255, .5), 0 -1px 7px rgb(75, 255, 255);
+ -webkit-transition: opacity .5s;
+ -moz-transition: opacity .5s;
+ -o-transition: opacity .5s;
+}
+/* Displays the status indicator of the targeted dock item. */
+.dock li:target:after {
+	visibility: visible;
+	opacity: 1;
+}
+/* @group Label */
+.dock em {
+	position: absolute;
+	top: -34px;
+	left: 50%;
+	display: none;
+	width: 150px;
+	margin-left: -75px;
+	text-align: center;
+}
+/* Generates the little arrow at the bottom of the label. */
+.dock em:after {
+	content: " ";
+	position: absolute;
+	bottom: -6px;
+	left: 50%;
+	margin-left: -6px;
+	width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid rgba(0, 0, 0, .6);
+	border-bottom: none;
+}
+/* This is the actual label. */
+.dock em span {
+	display: inline-block;
+	padding: 5px 12px;
+	font-size: 14px;
+	font-style: normal;
+	color: #FFF;
+	background: #000;
+	background: rgba(0, 0, 0, .6);
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	border-radius: 12px;
+}
+.dock li:hover em {
+	display: block;
+}
+/* @group Icon */
+.dock img {
+	width: 60px;
+	height: auto;
+	border: none;
+ -webkit-transition: width .2s, height .2s;
+ -moz-transition: width .2s, height .2s;
+ -o-transition: width .2s, height .2s;
+}
+.dock li:hover img {
+	width: 96px;
+}
+.dock li:active img {
+	opacity: .9;
+}
+/*DOCKFOOTEREND*/
+
+#newspost {
+	float: left;
+	border: solid 1px #0099FF;
+	padding: 20px;
+	margin-bottom: 25px;
+	width: 100%;
+}
+#contactbar {
+	height: 100px;
+	width: 100%;
+	background-color: #C4C4CD;
+	background-image: url(images/twittericon.png);
+}
+/*------------------------------styling------------------------------*/
+
+
+
+p {
+	font-family: Verdana, Tahoma;
+}
+h2 {
+	font-family: verdana, tahoma;
+	color: #0099FF
+}
+#content p {
+	color: #666666;
+}
+#footer a {
+	color: #666666;
+}
+#header h5 {
+	color: #FFFFFF;
+	font-family: Verdana;
+	font-size: 0.75em;
+	padding-top: 3px;
+}
+#project h5 {
+	color: #0099FF;
+	padding: 0px;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: verdana, tahoma;
+}
+a:active {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+#project p {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: verdana, tahoma;
+	padding: 5px;
+}
+#newspost p {
+	color: #666666;
+	font-size: 11px;
+}
+#newspost h5 {
+	padding: 0px;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	color: #c9c9c9;
+}
+#newspost h2 {
+	padding: 0px;
+	margin: 0px;
+}
+
+#newspost a {
+	color: #0099ff;
+	font-size: 110%;
+	text-decoration: none;
+	}fd
+/*Block 1*/
+
+
+
+#block1 h2 {
+	font-family: Verdana, Tahoma;
+}
+#block1 p {
+	color: #666666;
+	font-size: 12px;
+}
+/*Block 2*/
+
+
+
+#block2 h2 {
+	font-family: Verdana, Tahoma;
+}
+#block2 p {
+	color: #666666;
+	font-size: 12px;
+}
+#containerprojects table tbody tr td {
+	padding: 20px;
+}
+#containerprojects tr td a {
+	color: #666;
+	font-family: Verdana, Tahoma;
+	text-decoration: none;
+}
+/*Projects*/
+
+#pagewidth {
+	width:60%;
+	text-align:left;
+	margin:25px auto;
+}
+#twocols {
+	width:100%;
+	float:right;
+	position:relative;
+}
+#rightcol {
+	width:100%;
+	float:right;
+	position:relative;
+	margin: 0;
+}
+#maincol {
+	float: left;
+	width: 100%;
+	position: relative;
+	margin: 0px;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+.drop-shadowm {
+	position:relative;
+	float:left;
+	width:60%;
+	padding:1em;
+	margin:2em 10px 4em;
+	background:#fff;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.drop-shadowr {
+	position:relative;
+	float:left;
+	width:20%;
+	padding:1em;
+	margin:2em 10px 4em;
+	background:#fff;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.drop-shadowm:before, .drop-shadowm:after {
+	content:"";
+	position:absolute;
+	z-index:-2;
+}
+.drop-shadowr:before, .drop-shadowr:after {
+	content:"";
+	position:absolute;
+	z-index:-2;
+}
+/* Lifted corners */
+
+.lifted {
+	-moz-border-radius:4px;
+	border-radius:4px;
+}
+.lifted:before, .lifted:after {
+	bottom:15px;
+	left:10px;
+	width:50%;
+	height:20%;
+	max-width:300px;
+	-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+	-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+	box-shadow:0 15px 10px rgba(0, 0, 0, 0.7);
+	-webkit-transform:rotate(-3deg);
+	-moz-transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg);
+	-o-transform:rotate(-3deg);
+	transform:rotate(-3deg);
+}
+.lifted:after {
+	right:10px;
+	left:auto;
+	-webkit-transform:rotate(3deg);
+	-moz-transform:rotate(3deg);
+	-ms-transform:rotate(3deg);
+	-o-transform:rotate(3deg);
+	transform:rotate(3deg);
+}
+
+.textbox {
+	position: absolute;
+	right: 23px;
+	top: 20px;
+	padding: 5px;
+	margin: 0;
+	background:#292929;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0px 2px 6px #666;
+}
+
+.textbox p {
+	color: #666;
+	font-size: 9px;
+	line-height: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.textbox h2{
+	color: #FFF;
+	font-size: 32px;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+
+.textbox a {
+	text-decoration: none;
+	}
+
+.textbox a:hover {
+	color: #0099FF;
+}
+
+.textbox a:visited {
+	color: #fff;
+	}
+
+.rounded {
+	border-radius: 5px 5px 5px 5px;
+	}
+	

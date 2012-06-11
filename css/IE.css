@@ -1,0 +1,13 @@
+.header span {
+	margin-top: -18px;
+	}
+
+.nav a:before {
+	margin-bottom: 10px
+	}
+
+.read-more-wrap {margin-top: 0; position: relative; bottom: -12px;}
+.post-text {display: inline-block;}
+
+img {border-style: none;}
+#doodle-wrap {display: none;}

@@ -1,0 +1,155 @@
+
+/*------- Interwebular V2 -------*/
+
+body, p, head, ul, li, h1, h2, em, img {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	background: #ccc;
+	margin-top: 0px;
+}
+
+#header {
+	height: 160px;
+	width: 100%;
+	background: #292929;
+	position: relative;
+	border-radius: 0 0 8px 8px;
+	box-shadow: 0 3px 2px #666;
+	padding-bottom: 0;
+	margin-top: 0;
+}
+	
+#header h1 {
+	font-family: sans-serif;
+	font-size: 82px;
+	color: #0099FF;
+	padding: 15px 0 0 25px;
+	text-shadow: 2px 1px 1px #FFF;
+	letter-spacing: -1px;
+	
+}
+
+#content {
+	margin: 30px auto 20px auto;
+	width: 700px;
+	padding: 0;
+	height: 250px;
+	box-shadow: 0px 2px 6px #666;
+}
+
+#header h5 {
+	margin-top: -10px;
+	margin-left: 0;
+	color: #666;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 25px;
+	padding-bottom: 0;
+	font-weight: bold;
+	line-height: 22px;
+}	
+	
+	
+.menu {
+	position: absolute;
+	right: 20px;
+	bottom: 1px;
+	margin: 0 0 10px 0;
+}
+	
+
+	
+.menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+.menu li {
+	padding: 0 4px 0 4px;
+}
+	
+.menu a {
+	text-decoration: none;
+	color: #0099FF;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	text-transform: lowercase;
+	
+}
+
+.txtbox {
+	width: 100%;
+}
+
+.txtbox p {
+	color: #666;
+	font-size: 9px;
+	line-height: 12px;
+}
+
+.txtbox h2 {
+	color: #0099FF;
+	font-size: 11px;
+	padding-bottom: 2px;
+}
+	
+.banner { 
+	margin: 30px auto 20px auto;
+	width: 700px;
+	padding: 0;
+	height: 250px;
+	box-shadow: 0px 2px 6px #666;
+}
+
+.footer {
+	Height: 100px;
+	clear: both;
+	font-family: Verdana, Tahoma;
+	font-size: 10px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	line-height: 18px;
+	text-align: center;
+	position: relative;
+	background: #292929;
+}
+
+/*Txt box shadows and corners*/
+	
+.textbox {
+	position: absolute;
+	right: 23px;
+	top: 20px;
+	width: 80px;
+	padding: 5px;
+	margin: 0;
+	background:#292929;
+	-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0px 2px 6px #0099FF;
+}
+
+.rounded {
+	border-radius: 5px 5px 5px 5px;
+}
+
+/*-------end-------*/
+
+.logo {
+	position: absolute;
+	right: 23px;
+	top: 20px;
+	padding: 5px;
+	margin: 0;
+	width: 100px;
+	height: 96px;
+	background: url("logosmall.png");
+	background-repeat: no-repeat;
+}

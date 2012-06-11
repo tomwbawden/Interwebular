@@ -6,9 +6,6 @@
 	<meta name="Description" content="Portfolio and digital playground of Brisbane freelance web designer Tom Bawden.">
 	<title>Interwebular - A Brisbane Web Designer</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css" />
-	<!--[if IE]>
-        <link rel="stylesheet" type="text/css" href="../css/IE.css" />
-	<![endif]-->
 	 <script type="text/javascript" src="../ieblocker/jquery-1.2.6.min.js"></script>
 	 <script type="text/javascript" src="../ieblocker/jquery.ie6blocker.js"></script>
 </head>

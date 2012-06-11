@@ -1,0 +1,1 @@
+  $('div:contains(". image")').css('display', 'none');
